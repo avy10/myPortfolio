@@ -1,0 +1,37 @@
+/* 0.0 default styling */
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(rgba(55, 55, 169, 0.2), rgba(21, 138, 21, 0.2));   
+    /* background: radial-gradient(rgba(9, 183, 183, 0.451), rgba(21, 138, 21, 0.2)); */
+    /* background: radial-gradient(red, blue); */
+
+}
+
+/*0.1 Global Classes Stylings = Utilities*/
+.flex{
+    display: flex;
+}
+
+.just-cntr{
+    justify-content: center;
+}
+
+.just-even{
+    justify-content: space-evenly;
+}
+
+.just-btwn{
+    justify-content: space-between;
+}
+
+.just-arnd {
+    justify-content: space-around;
+}
+
+.align-cntr{
+    align-items: center;
+}

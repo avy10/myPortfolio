@@ -1,0 +1,249 @@
+/*Some Responsiveness*/
+@media screen and (max-width: 1920px){
+    .hero{
+        height: 84vh;
+    }
+}
+@media screen and (max-width: 1250px){
+    .hero .title{
+        font-size: 2rem;
+
+    }
+    .hero{
+    margin-top: 7%;
+    }
+}
+@media screen and (max-width: 1155px){
+    .hero{
+        height: 84vh;
+    }
+    .rightPart{
+    margin: 3.75vw;
+}
+
+.rightPart img{
+    width:285px;
+}
+    #name{
+    font-size: 5rem;
+}
+}
+
+
+/*MAJOR 1*/
+@media screen and (max-width: 1100px){
+    .hero{
+    margin-top: 7.2%;
+    height: 84vh;
+    }
+    .rightPart img{
+    width:275px;
+}
+    .hero .title{
+        font-size: 1.75rem;
+    }
+    .expertise{
+        display: grid;
+        grid-template-columns: 43% 43%;
+        grid-template-rows: auto;
+        justify-content: space-evenly;
+    }
+    .bigBox{
+    margin-left: 30vw;
+}
+}
+
+@media screen and (max-width: 1035px){
+    #name{
+    font-size: 4.3rem;
+}
+}
+
+@media screen and (max-width: 952px){
+    .hero{
+    margin-top: 7.5%;
+    height: 84vh;
+    }
+    .hero .title{
+        font-size: 1.5rem;
+    }
+        #name{
+    font-size: 4.3rem;
+}
+.rightPart{
+    margin: 2.75vw;
+}
+.rightPart img{
+    width:200px;
+}
+}
+
+/*MAJOR 2*/
+@media screen and (max-width: 900px){
+    .top img, .headings img{
+        width: 55px;
+    }
+    .hero{
+    margin-top: 8%;
+    height: 84vh;
+    }
+
+        .rightPart{
+    margin: 1.5vw;
+}
+    .rightPart img{
+    width:200px;
+}
+
+     #name{
+    font-size: 4.1rem;
+}
+
+    .expertise{
+    display: grid;
+    grid-template-columns: 70%;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+}
+}
+@media screen and (max-width: 750px){
+    .annoyed{
+        font-size: 1.75em;
+    }
+    .hero{
+    margin-top: 8.5%;
+    height: 55vh;
+    }
+        .rightPart{
+    margin: 1vw;
+}
+    .rightPart img{
+    width: 180px;
+}
+    #name{
+    font-size: 3.6rem;
+}
+
+.bigBox{
+    margin-left: 22vw;
+}
+
+}
+
+/*MAJOR 3*/
+@media screen and (max-width: 650px){
+    .annoyed{
+        font-size: 1.65em;
+    }
+    .hero{
+    margin-top: 9%;
+    }
+        #name{
+    font-size: 3.2rem;
+}
+    .rightPart{
+    margin: 1.2vw;
+}
+    .rightPart img{
+    width:175px;
+}
+    .expertise{
+        display: grid;
+        grid-template-columns: 85%;
+        grid-template-rows: auto;
+        justify-content: space-evenly;
+    }
+    main h2, .projects h2{
+        margin-top: 15px;
+        margin-left: 15px;
+        font-family: cursive;
+    }
+    
+    .expertise p{
+        padding: 15px;
+        line-height: 1.25em;
+        font-size: 1.25em;
+        background-color: rgb(251, 251, 236);
+        border-radius: 35px;
+
+}
+}
+
+
+@media screen and (max-width: 590px){
+    .annoyed{
+        font-size: 1.5em;
+    }
+    .hero{
+    margin-top: 8.5%;
+    }
+        #name{
+    font-size: 2.5rem;
+}
+    .rightPart{
+    margin: 1vw;
+}
+    .rightPart img{
+    width:175px;
+}
+    header nav a{
+    margin-right: 1rem;
+    padding: 1vw;
+    font-size: 1em;
+    font-family: 'Russo One', sans-serif;
+}
+
+
+}
+/*MAJOR 4*/
+@media screen and (max-width: 520px){
+
+
+/**/
+@media screen and (max-width: 500px){
+.top img, .headings img{
+        width: 30px;
+    }
+    header nav a{
+    margin-right: 1rem;
+    padding: 1vw;
+    font-size: 0.8em;
+    font-weight: 400;
+    font-family: 'Russo One', sans-serif;
+}
+
+    .hero{
+    margin-top: 9.5%;
+    }
+}
+/**/
+
+/**/
+
+@media screen and (max-width: 470px){
+    .hero{
+        height: 40vh;
+        margin-top: 9.8%;
+    }
+        #name{
+    font-size: 2rem;
+}
+    .hero .title{
+        font-size: 1.25rem;
+        text-align: left;
+
+    }
+    .hero .desc{
+        font-size: 0.9em;
+    }
+    .rightPart{
+    margin: 1vw;
+}
+    .rightPart img{
+        width:120px;
+        border: 3px dotted darkgoldenrod;
+        position: relative;
+        top: -15px;
+    }
+}
+}
