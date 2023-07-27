@@ -78,7 +78,7 @@ header nav a.active {
 .desc {
   font-family: 'Exo 2', sans-serif;
   font-size: 1.3em;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 /* 2.1 styling image on the right of hero-section*/
@@ -129,9 +129,17 @@ header nav a.active {
 
 
 .buttonss img {
-  width: 25px;
+  width: 35px;
 }
-
+#linkedIn{
+  scale: 0.95;
+}
+#downloadButtonImage{
+  scale: 1.25;
+}
+#gmailButton{
+  scale: 0.85;
+}
 /*styling main i.e. MY EXPERTISE AND SKILLS */
 main {
   background-color: rgba(255, 248, 220, 0.4);
@@ -213,6 +221,7 @@ main {
 .bigBox {
   width: 400px;
   margin-left: 35vw;
+  padding-bottom: 50px;
 }
 
 .row2,
